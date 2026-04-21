@@ -1,0 +1,21 @@
+{
+  "name": "black-glitter-f457",
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy --minify",
+    "cf-typegen": "wrangler types --env-interface CloudflareBindings",
+    "typecheck": "tsgo --noEmit",
+    "watch": "tsgo --watch --noEmit"
+  },
+  "dependencies": {
+    "hono": "4.12.14",
+    "qs": "6.15.1"
+  },
+  "devDependencies": {
+    "@types/node": "25.6.0",
+    "@types/qs": "6.15.0",
+    "@typescript/native-preview": "7.0.0-dev.20260421.1",
+    "wrangler": "4.84.0"
+  }
+}
