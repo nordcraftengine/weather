@@ -1,7 +1,10 @@
 import { Hono } from "hono";
+import { cors } from "hono/cors";
 import qs from "qs";
 
 const app = new Hono<{ Bindings: CloudflareBindings }>();
+
+app.use(cors());
 
 app.get("/weather", async (c) => {
   const req = c.req.raw;
