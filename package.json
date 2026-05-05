@@ -9,7 +9,7 @@
     "watch": "tsgo --watch --noEmit"
   },
   "dependencies": {
-    "hono": "4.12.14",
+    "hono": "4.12.16",
     "qs": "6.15.1"
   },
   "devDependencies": {
