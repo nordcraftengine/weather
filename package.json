@@ -13,7 +13,7 @@
     "qs": "6.15.1"
   },
   "devDependencies": {
-    "@types/node": "25.6.0",
+    "@types/node": "25.7.0",
     "@types/qs": "6.15.0",
     "@typescript/native-preview": "7.0.0-dev.20260421.1",
     "wrangler": "4.84.0"
